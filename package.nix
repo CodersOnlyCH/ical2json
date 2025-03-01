@@ -5,6 +5,7 @@ with pkgs;
     format = "pyproject";
     src = ./.;
     propagatedBuildInputs = with python3Packages; [
+      docopt
       hatchling
       icalendar
       requests
